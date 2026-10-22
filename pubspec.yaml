@@ -58,19 +58,20 @@ dev_dependencies:
   flutter_launcher_icons: ^0.14.4
 
 flutter_launcher_icons:
+  # Source: assets/icon/icon.jpeg, squared into these two files.
   android: true
   ios: true
-  image_path: assets/icon/icon.jpg
+  image_path: assets/icon/app_icon.png
   min_sdk_android: 21
-#  adaptive_icon_background: "#12324D"
-#  adaptive_icon_foreground: assets/icon/icon_foreground.png
-#  adaptive_icon_foreground_inset: 8
-#  remove_alpha_ios: true
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: assets/icon/app_icon_foreground.png
+  adaptive_icon_foreground_inset: 0
+  remove_alpha_ios: true
   web:
     generate: true
-    image_path: assets/icon/icon.jpg
-    background_color: "#12324D"
-    theme_color: "#12324D"
+    image_path: assets/icon/app_icon.png
+    background_color: "#FFFFFF"
+    theme_color: "#1E8C4E"
 
 flutter:
 
